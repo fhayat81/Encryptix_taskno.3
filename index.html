@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assests/logo.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator-by-Fazal</title>
+  </head>
+  <body>
+    <header>
+      <h1>CALCULATOR</h1>
+    </header>
+    <div class="calc">
+      <p style="margin: 10px">15-DIGIT</p>
+      <div class="input">
+        <!-- input -->
+        <p id="op-display"></p>
+        <p id="display"></p>
+      </div>
+      <!-- buttons -->
+      <div class="buttons">
+        <button id="CE" style="background-color: #88ab8e; color: white">
+          CE
+        </button>
+        <button id="backspace" style="background-color: #88ab8e; color: white">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button id="num" value="7">7</button>
+        <button id="num" value="8">8</button>
+        <button id="num" value="9">9</button>
+        <button id="op" class="divide">
+          <i class="fa-solid fa-divide"></i>
+        </button>
+        <button id="num" value="4">4</button>
+        <button id="num" value="5">5</button>
+        <button id="num" value="6">6</button>
+        <button id="op" class="multiply">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="num" value="1">1</button>
+        <button id="num" value="2">2</button>
+        <button id="num" value="3">3</button>
+        <button id="op" class="minus"><i class="fa-solid fa-minus"></i></button>
+        <button id="num" value=".">.</button>
+        <button id="num" value="0">0</button>
+        <button id="op" class="equal">=</button>
+        <button id="op" class="plus">+</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
